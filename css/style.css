@@ -1,0 +1,38 @@
+.primary-bg  {
+    background-color: #FFEFEF !important;
+}
+
+.secondary-bg {
+    background-color: #FFE3FF !important;
+}
+
+.tirtiary-bg {
+    background-color: #E8CFDB !important;
+}
+
+.text-primary {
+    color: #FFEFEF !important;
+}
+
+.text-secondary {
+    color: #FFE3FF !important;
+}
+
+.text-tertiary {
+    color: #E8CFDB !important;
+}
+
+.text-color {
+    color: #E8C3D5;
+}
+
+.icon {
+    max-width: 250px;
+    max-height: 250px;
+    border: 5px solid #E9D6FF;
+}
+
+.title-text {
+    font-size: 64px;
+    padding-top: 63px;
+}
