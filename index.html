@@ -5,6 +5,7 @@
 	  <link href="./css/all.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/stars.css" rel="stylesheet">
 	  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -26,7 +27,7 @@
   </head>
   <body>
 
-    <div class="jumbotron jumbotron-fluid primary-bg">
+    <div class="jumbotron jumbotron-fluid stars">
       <div class="container">
         <div class="row">
           <div class="col-md-9" style="text-align: left;">
@@ -36,6 +37,28 @@
           </div>
           <div class="col-md-3 d-none d-sm-none d-md-block">
               <img src="./imgs/KayoQ.png" class="img-fluid rounded-circle icon float-right" alt="Icon">
+          </div>
+          <div class="night">
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
           </div>
         </div>
       </div>
@@ -51,16 +74,16 @@
       <br/><br/><br/>
       <div class="row panel">
         <div class="col-md-3 col-12" style="padding-bottom: 10px;">
-          <img src="./imgs/Minecraft.png" class="img-fluid mx-auto d-block" alt="Minecraft">
+          <img src="./imgs/tba.png" class="img-fluid mx-auto d-block" alt="tba">
         </div>
         <div class="col-md-3 col-12" style="padding-bottom: 10px;">
           <img src="./imgs/Minecraft.png" class="img-fluid mx-auto d-block" alt="Minecraft">
         </div>
         <div class="col-md-3 col-12" style="padding-bottom: 10px;">
-          <img src="./imgs/Minecraft.png" class="img-fluid mx-auto d-block" alt="Minecraft">
+          <img src="./imgs/tba.png" class="img-fluid mx-auto d-block" alt="tba">
         </div>
         <div class="col-md-3 col-12" style="padding-bottom: 10px;">
-          <img src="./imgs/Minecraft.png" class="img-fluid mx-auto d-block" alt="Minecraft">
+          <img src="./imgs/tba.png" class="img-fluid mx-auto d-block" alt="tba">
         </div>
       </div><br/><br/><br/>
       <div class="row">
@@ -72,6 +95,25 @@
 
 	  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	  <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+      $(window).resize(function(){
+          var $c = $('.container'),
+              $w = $('.well'),
+              totalWidth = $('.bar').outerWidth(),
+              wellWidth = $c.outerWidth(),
+              diff = totalWidth - wellWidth,
+              marg = -Math.floor(diff/2) + 'px';
+          $w.each(function(){
+              $(this).css({
+                  'margin-left': marg,
+                  'margin-right': marg
+              });
+          })        
+      });     
+      $(window).resize();
+  });
+    </script>
   </body>
 </html>
