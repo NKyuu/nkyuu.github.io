@@ -23,7 +23,7 @@
 }
 
 .text-color {
-    color: #E8C3D5;
+    color: #d18bad;
 }
 
 .icon {
@@ -35,4 +35,17 @@
 .title-text {
     font-size: 64px;
     padding-top: 63px;
+}
+
+@media (min-width: 576px) { 
+    
+    .panel img {
+        align-content: center;
+    }
+
+}
+
+
+body {
+    background-color: #fbfbfb;
 }
