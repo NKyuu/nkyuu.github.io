@@ -37,11 +37,16 @@
     padding-top: 63px;
 }
 
+.panel-item {
+    max-height: 200px !important;
+    max-width: auto !important;
+    height: auto;
+    width: auto;
+    align-content: center;
+}
+
 @media (min-width: 576px) { 
     
-    .panel img {
-        align-content: center;
-    }
 
 }
 

@@ -282,3 +282,10 @@
         transform: rotate(405deg);
     }
 }
+
+@media (max-width: 767.98px) { 
+    
+    .night {
+        margin-top: -70% !important;
+    }
+}
