@@ -1,4 +1,0 @@
-# nkyuu.github.io
-
-
-oi
